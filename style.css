@@ -1,0 +1,100 @@
+
+body {
+  background-color: #FDEBED;
+  color: #3A4F7A;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  margin: 10;
+  width: auto;
+  text-align: center;
+
+}
+
+.box {
+  border: 0px solid #3A4F7A;
+  box-shadow: 2px 4px 19px color(srgb 0.995 0.7463 0.7463 / 0.61);
+  padding: 10;
+  border-radius: 150px;
+  width: 200;
+  margin: 50;
+}
+
+.box2 {
+  border: 0px solid #3A4F7A;
+  box-shadow: 2px 4px 19px color(srgb 0.995 0.7463 0.7463 / 0.61);
+  padding: 30;
+  border-radius: 10px;
+  width: 800;
+  margin: 50;
+}
+
+.box3 {
+  border: 0px solid #3A4F7A;
+  box-shadow: 2px 4px 19px color(srgb 0.995 0.7463 0.7463 / 0.61);
+  padding: 10;
+  border-radius: 150px;
+  /* width: 200;
+  margin: 10; */
+  display: contents;}
+
+
+.container {
+width: 950;
+margin: auto;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px
+}
+
+a {
+  color: #3F0071;
+  text-decoration: none;
+  width: 500;
+  height: auto;
+}
+
+a:hover {
+  color: #AAE3E2;
+}
+
+
+
+#img_profile {
+  width: 150;
+  height: auto;
+  border-radius: 150px;
+  border: 1px solid #3A4F7A;
+  padding: 15;
+}
+
+
+#logo_size {
+font-size: 30px;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+     width: 500px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
